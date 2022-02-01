@@ -1,7 +1,7 @@
 ---
 title: "ttc-subway-delay in September,2021^[Code and data are available at:https://github.com/YN7666/sta304-]"
 author: "Vincent Yu"
-date: "02/02/2021"
+date: "02/06/2022"
 abstract: Toronto subway is one of the greatest subway systems in the world. However, due to its age and other reasons the amount of time it delays is dramatic. TTC subway delay data is a public data posted by the Toronto Transit Commission on The City of Toronto’s Open Data Portal for everyone to consume and analyze from 2017. From this report, I generate the highest delay frequency that happened on Thursday day, Vaughan mc station, southbound and line1. "No Operator Immediately Available" is the highest reason why it was delayed provided by TTC.
 output: pdf_document
 bibliography: cite.bib
