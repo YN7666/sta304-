@@ -60,7 +60,9 @@ delay <- delay %>%
   rename(min_delay = `Min Delay`)
 delay <- delay %>%
   rename(min_gap = `Min Gap`)
-head(delay)
+head(delay)  %>% kable(caption = "ttc-subway-delay in September,2021") %>%
+  kable_styling(latex_options = "HOLD_position")%>%
+kable_styling(latex_options = c("striped", "scale_down"))
 ```
 # Numerical Summaries 
  Here I will analyze some interesting variables with numerical summaries from the data. This could give a clear view of how each variable is constituted. In the rest of the data, there will be three essential and interesting variables that I will mainly focus on. The most important variable is Min_Delay. This is used to measure the duration of each delay. Min_Delay. It is a numerical variable. min_gap is the time gap between two delay events. This is also a numerical variable that could represent the min_delay from the side. Table 1 demonstrates the data summaries of the Min_Delay.\
