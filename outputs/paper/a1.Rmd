@@ -30,7 +30,7 @@ glimpse(delay)
 # Introduction
 As we all know, Toronto has one of the oldest subway systems globally and is run by the Toronto Transit Commission (TTC). TTC is the public transport agency that operates most of the public transit in the Toronto, Peel and York regions. It was established 101 years ago and it is the largest urban mass transit system in Canada and the third-largest in North America till now. The top two are in New York City and Mexico. In 1954, the TTC opened Canada's first underground rail line, Line1. At that moment, the total length of the route was only 7.4 kilometers. The line is also called Line-Yonge–University because it was under Yonge Street and the line was southwards to Union station under University Avenue. As of 2018, the whole network has four lines, 75 stations and 76.9 kilometers of route. Among them, Line 1 is still the longest route. After the latest extension from Sheppard West to Vaughan Metropolitan Center, its length became 38.8km. In general, Line 1 has two northern terminals with a U shape. Line 2 is nearly a straight line going east-west. The other 2 are extended lines connected on these two main routes. (@trt_sub).\
  However, as Toronto citizens, we all know that many questions happen every day on the subway. Although the staff tries to solve them as quickly as possible, the subway still can not arrive on time and ruins daily life. Because of the vital role of public transit, the public transit service delay could cause severe results for the urban mass transit system and citizens' life. For example, on 17th January, a storm of epic proportions arrived in Toronto and barely destroyed TTC service. The subway was delayed and huge crowds were waiting for Line 1 at victory park station for a long time that morning. Countless ongoing issues across the subway network were happening. \
-For this report, I will use open-access data from the Toronto Transit Commission to analyze data of delay and get some more information about why and when the TTC Subway delay happened. There will be 2 kinds of summaries later: Numerical and Graphical. The dataset will be processed and analyzed in R The tidyverse (@tidyverse1) dplyr (@dplyr1) and  Car (@car1) packages are used to generate data.  Figures and tables will be created by ggplot2 (@ggplot1) and kableextra (@kableExtra1). The packages knitr (Xie 2021), and tinytex (Xie 2021) and rmarkdown(R Core Team 2020) are used to generate the R markdown report. \
+For this report, I will use open-access data from the Toronto Transit Commission to analyze data of delay and get some more information about why and when the TTC Subway delay happened. There will be 2 kinds of summaries later: Numerical and Graphical. The dataset will be processed and analyzed in R(@R1) The tidyverse (@tidyverse1) dplyr (@dplyr1) and  Car (@car1) packages are used to generate data.  Figures and tables will be created by ggplot2 (@ggplot1) and kableextra (@kableExtra1). The packages knitr (@knitr1), and tinytex (@tinytex1) and rmarkdown(@rmarkdown1) are used to generate the R markdown report. \
 \newpage
 
 # Data
@@ -184,26 +184,4 @@ As I mentioned above, the last one of the three important and interesting variab
 # Reference
 
 
- R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing,
-  Vienna, Austria. URL https://www.R-project.org/.
 
-
-
-JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham
-  and Joe Cheng and Winston Chang and Richard Iannone (2021). rmarkdown: Dynamic Documents for R. R package version 2.9.
-  URL https://rmarkdown.rstudio.com.
-
-Yihui Xie and J.J. Allaire and Garrett Grolemund (2018). R Markdown: The Definitive Guide. Chapman and Hall/CRC. ISBN
-  9781138359338. URL https://bookdown.org/yihui/rmarkdown.
-
-Yihui Xie and Christophe Dervieux and Emily Riederer (2020). R Markdown Cookbook. Chapman and Hall/CRC. ISBN
-  9780367563837. URL https://bookdown.org/yihui/rmarkdown-cookbook
-    
-  
-Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686,
-  https://doi.org/10.21105/joss.01686
-  
-
-Yihui Xie (2021). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.33.
-
-Yihui Xie (2021). tinytex: Helper Functions to Install and Maintain TeX Live, and Compile LaTeX Documents. R package version 0.35.
